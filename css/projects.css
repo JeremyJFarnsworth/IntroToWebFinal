@@ -1,0 +1,53 @@
+/* projects.css */
+
+.page-content {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.page-content h3 {
+    font-size: 2rem;
+    color: #0077cc;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    background-color: #f0f8ff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+ol li:hover {
+    transform: scale(1.02);
+}
+
+ol li a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+ol li a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
